@@ -16,3 +16,10 @@ I have created the following dimension and fact tables:
 - Fact tables:
 - `fct_trip`: Contains information about trips
 - `fct_order`: Contains information about orders
+
+## **Further Improments**
+If I had more time available, I'd have taken additional steps that could further enhance the data model:
+- **Implementing slowly changing dimensions:** Handling changes in dimension tables to track historical changes
+- **Implementing data quality checks:** Setting up data validation and testing in dbt to ensure consistency and accuracy of data model
+- **Setting up incremental materialization:** Using dbt incremental materialization for large datasets to improve performance
+- **Creating aggregated tables:** Creating aggregated tables for common analytical queries to reduce load on data warehouse
