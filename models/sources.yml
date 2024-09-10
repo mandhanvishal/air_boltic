@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: cdm
+    database: airbotic_db
+    schema: dbo
+    tables:
+      - name: customer
+      - name: customer_group
+      - name: aeroplane
+      - name: aeroplane_model
+      - name: trip
+      - name: order
